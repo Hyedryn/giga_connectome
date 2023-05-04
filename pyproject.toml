@@ -21,7 +21,7 @@ classifiers = [
 dependencies = [
   "h5py",
   "nilearn",
-  "pybids",
+  "pybids >= 0.16, < 1",
   "templateflow",
   "tqdm",
 ]

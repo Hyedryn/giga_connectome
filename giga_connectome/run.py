@@ -72,6 +72,11 @@ def main():
         "https://fmriprep.org/en/latest/faq.html#"
         "how-do-i-select-only-certain-files-to-be-input-to-fmriprep",
     )
+    parser.add_argument(
+        "--is-derivative",
+        action='store_true',
+        help="Index dataset specified by the bids_dir option as a derivative dataset (e.g. fMRIPrep derivative).",
+    )
     args = parser.parse_args()
 
     workflow(args)

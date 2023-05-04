@@ -55,6 +55,7 @@ def workflow(args):
         database_path=working_dir,
         validate=False,
         derivatives=True,
+        is_derivative=args.is_derivative,
     )
     image_filter = {
         "subject": subjects,

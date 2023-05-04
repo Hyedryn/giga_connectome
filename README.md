@@ -42,6 +42,8 @@ optional arguments:
                           'scrubbing.5', 'scrubbing.5+gsr', 'acompcor50', 'icaaroma'.
                           User can pass a path to a json file containing configuration for
                           their own choice of denoising strategy.
+  --is-derivative
+                        Index dataset specified by the bids_dir option as a derivative dataset (e.g. fMRIPrep derivative).
 
 ```
 
